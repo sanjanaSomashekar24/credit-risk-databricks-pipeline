@@ -23,6 +23,7 @@ by post-conditions (149,999 rows, 0 nulls, max past-due 20, max utilization 10)
 → **GOLD** `gold_credit_features` — model-ready feature table, lineage columns
 dropped
 → **MLflow** — experiment tracking + logged models
+→ ![Medallion tables](docs/medallion_tables.png)
 
 Detection (bronze) and correction (silver) are separate, auditable layers —
 each layer adds its own metadata columns, leaving a lineage trail.
